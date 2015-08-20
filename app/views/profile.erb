@@ -1,0 +1,37 @@
+<div class="profile">
+      <h1>Create A Profile</h1>
+    <section class="names">
+      <form action="/profile/edit" method="POST">
+        <div class="first">
+            <label for="first_name">First Name</label>
+            <input type="first_name" class="form-control"name="first_name" id="first_name" placeholder="First" value="">
+        </div><br/>
+        <div class="last">
+            <label for="last_name">Last Name</label>
+            <input type="last_name" class="form-control" name="last_name" id="last_name" placeholder="Last">
+        </div><br/> 
+      </section> 
+      <section class="emailpass">
+        <div class="email">
+          <label for="email">Enter Email</label>
+          <input type="text" class="form-control" name="email" id="email" placeholder="youremail@domain.com">
+        </div><br/>
+        <div class="password">  
+          <label for="password">Enter Password</label>
+          <input type="text" class="form-control" name="password" id="password" placeholder="Password">
+        </div><br/>
+    </section>
+
+        <div class="man">
+          <label for="male">Male</label>
+          <input type="radio" name="sex" id="male">
+        </div>
+        <div class="woman">  
+          <label for="female">Female</label>
+          <input type="radio" name="sex" id="female">
+        </div><br/> 
+        <div>
+          <button type="submit" id="button">Submit</button>
+        </div>
+      </form>
+</div>      

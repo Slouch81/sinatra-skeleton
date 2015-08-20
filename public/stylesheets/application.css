@@ -1,0 +1,47 @@
+
+
+body { 
+background-color: #118707
+}
+
+h1 {
+text-align: center;
+font-family: cursive;
+
+}
+
+h2 {
+  font-family:fantasy;
+  text-decoration: underline;
+  color: #F08D3C;
+}
+
+button {
+border-radius:100%;
+background-color: #E3A209;
+}
+
+button:hover {
+  background-color: red;
+}
+
+ .login {
+  float: right;
+  margin-right: 350px;
+}
+
+.signup {
+  float:left;
+  margin-left: 350px;
+}
+
+.form-control {
+  text-align: center;
+  width: 200%;
+  border-style: inset;
+}
+
+
+
+
+  
